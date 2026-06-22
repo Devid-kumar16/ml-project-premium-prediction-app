@@ -17,7 +17,7 @@ def calculate_normalized_risk(medical_history):
         "no disease": 0,
         "none": 0
     }
-    diseases = medical_history.lower().split(" $ ")
+    diseases = medical_history.lower().split("&")
     total_risk_score = sum(risk_scores.get(disease.strip(), 0) for disease in diseases)
 
     max_score = 14
@@ -80,7 +80,7 @@ def preprocess_input(input_dict):
             df['age'] = value
         elif key == 'Number of Dependants':
             df['number_of_dependants'] = value
-        elif key == 'Income_lakhs':
+        elif key == 'Income in Lakhs':
             df['income_lakhs'] = value
         elif key == 'Genetical Risk':
             df['genetical_risk'] = value
