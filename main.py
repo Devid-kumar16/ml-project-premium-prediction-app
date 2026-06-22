@@ -8,7 +8,7 @@ categorical_options = {
     'Marital Status':['Unmarried', 'Married'],
     'BMI Category': ['Normal', 'Obesity', 'Overweight', 'Underweight'],
     'Smoking Status': ['No Smoking', 'Regular', 'Occasional'],
-    'Employment Status': ['Salaried', 'Self-Employed', 'Freelancer',''],
+    'Employment Status': ['Salaried', 'Self-Employed', 'Freelancer'],
     'Region': ['Northwest', 'Southeast', 'Northeast', 'Southwest'],
     'Medical History': [
         'No Disease', 'Diabetes', 'High blood pressure', 'Diabetes & High Blood Pressure', 'Thyroid', 'Heart disease', 'High blood pressure & Heart disease', 'Diabetes & Thyroid', 'Diabetes & Heart disease'
